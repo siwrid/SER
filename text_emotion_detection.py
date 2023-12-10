@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Load the dataset
-df = pd.read_csv('iemocap.csv')
+df = pd.read_csv('iemocap_text.csv')
 
 # We'll use CountVectorizer for feature extraction
 vectorizer = CountVectorizer()
